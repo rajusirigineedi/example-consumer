@@ -23,6 +23,7 @@ else
 		ENVIRONMENT=test
 		DEPLOY_TARGET=deploy
 	else
+		ENVIRONMENT=development
 		DEPLOY_TARGET=no_deploy
 	endif
 endif
